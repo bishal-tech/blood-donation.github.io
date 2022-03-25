@@ -1,55 +1,28 @@
 $(document).ready(function () {
 
-    $('.team_member').slick({
-        infinite: true,
+    $('.img-slider').slick({
         autoplay: true,
-        autoplaySpeed: 2500,
         arrows: false,
-        dots: false,
-        speed: 300,
-        slidesToScroll: 1,
-        pauseOnHover: true,
-        centerMode: false,
-        centerPadding: '0px',
-        slidesToShow: 5,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                    centerMode: false,
-                    centerPadding: '0px',
-                    slidesToShow: 4
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: false,
-                    centerPadding: '0px',
-                    slidesToShow: 2,
-                    slidesToShow: 1
-                }
-            }
-        ]
-
-
-    });
-    $('.img-slide').slick({
+        dots: true,
         infinite: true,
-        autoplay: false,
-        autoplaySpeed: 2500,
-        arrows: false,
-        dots: false,
-        speed: 300,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        slidesToShow: 1
+      });
+
+      $('.doners_slide').slick({
+        slidesToShow: 3,
         slidesToScroll: 1,
-        pauseOnHover: true,
-        centerMode: false,
-        centerPadding: '0px',
-        slidesToShow: 1,
-        responsive: []
-
-
-    });
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+      $('.articles_slide').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+                  
+      
 });

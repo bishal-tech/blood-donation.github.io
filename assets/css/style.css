@@ -159,11 +159,20 @@ nav {
 .banner_content {
   margin: auto;
 }
-
-.banner_section img {
+.img-slider{
+  max-width: 500px;
+}
+.img-slide {
   border-radius: 10px;
   box-shadow: 5px 9px 20px -2px #c2c2c2bf;
+  margin: 5px 20px;
+  height: 330px;
+  
 }
+.slick-dots li{
+  display: none;
+}
+
 
 /* ------------------------------- doner section style here  */
 
@@ -233,6 +242,7 @@ textarea {
 }
 .article_slide h3{
   color: var(--main-color);
+  font-weight: 600;
 }
 
 .article_slide img {

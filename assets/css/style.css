@@ -10,7 +10,7 @@ html {
 }
 body {
   --main-color: #e14055;
-  --heading-color: #e14055;
+  --heading-color: #2D2926FF;
   --text-color: #575555;
   --secondary-text-color: #fff;
   --button-bg-hover: #e4223c;
@@ -166,27 +166,22 @@ nav {
 }
 
 /* ------------------------------- doner section style here  */
-.team {
-  background-image: url(../img/our_team_bg.png);
-  padding: 30px 0;
-  background-size: 103% 100%;
-  background-repeat: no-repeat;
-}
-.members {
+
+.doners {
   margin-top: 20px;
   margin: 0 20px;
 }
-.members img {
+.doners img {
   width: 60%;
   margin: auto;
   clip-path: circle(50% at 50% 50%);
 }
-.members h3 {
+.doners h3 {
   margin-top: 10px;
   font-size: 20px;
   font-weight: 600;
 }
-.members p {
+.doners p {
   font-size: 15px;
   margin-bottom: 10px;
 }
@@ -210,6 +205,8 @@ textarea {
 .donate {
   background-color: var(--main-color);
   padding: 20px 50px;
+  box-shadow: 0px 2px 15px 5px rgb(185, 185, 185);
+
 }
 
 .donate h2 {
@@ -234,28 +231,38 @@ textarea {
   border-radius: 20px;
   max-width: 300px;
 }
+.article_slide h3{
+  color: var(--main-color);
+}
 
 .article_slide img {
   border-radius: 20px;
 }
 /*-------------------------------- footeor style start form here  */
 footer {
-  background-color: var(--heading-color);
+  background-color: var(--main-color);
 }
 .footer_1 img {
   width: 50px;
   height: 50px;
   margin-bottom: 10px;
+  clip-path: circle(50% at 50% 50%);
+
 }
 
 .footer_1 ul li a,
 .footer_2 ul li a,
-.footer_3 ul li {
+.footer_3 ul li a,
+.footer_3 ul li 
+{
   color: var(--secondary-text-color);
 }
 .footer_1 ul li a:hover,
-.footer_2 ul li a:hover {
-  color: var(--text-color);
+.footer_2 ul li a:hover,
+.footer_3 ul li a:hover {
+  color: var(--heading-color);
+  font-weight: 600;
+  font-size: 19px;
 }
 
 .footer_2 hr,

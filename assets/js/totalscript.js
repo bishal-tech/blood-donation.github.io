@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $('.team_members').slick({
+    $('.team_member').slick({
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2500,
@@ -33,6 +33,22 @@ $(document).ready(function () {
                 }
             }
         ]
+
+
+    });
+    $('.img-slide').slick({
+        infinite: true,
+        autoplay: false,
+        autoplaySpeed: 2500,
+        arrows: false,
+        dots: false,
+        speed: 300,
+        slidesToScroll: 1,
+        pauseOnHover: true,
+        centerMode: false,
+        centerPadding: '0px',
+        slidesToShow: 1,
+        responsive: []
 
 
     });

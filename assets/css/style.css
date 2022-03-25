@@ -201,6 +201,11 @@ textarea {
   display: block;
 }
 
+.blood_request_form form {
+  width: fit-content;
+  margin: auto;
+}
+
 /*------------------------------- donate section start  */
 .donate {
   background-color: var(--main-color);
@@ -219,6 +224,20 @@ textarea {
   min-width: 130px;
 }
 
+/* article slider style here  */
+.articles_slider {
+  gap: 15px;
+  justify-content: center;
+}
+.article_slide {
+  box-shadow: 3px 7px 15px -5px rgba(184, 182, 182, 0.67);
+  border-radius: 20px;
+  max-width: 300px;
+}
+
+.article_slide img {
+  border-radius: 20px;
+}
 /*-------------------------------- footeor style start form here  */
 footer {
   background-color: var(--heading-color);

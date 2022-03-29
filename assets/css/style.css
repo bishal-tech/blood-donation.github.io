@@ -10,7 +10,7 @@ html {
 }
 body {
   --main-color: #e14055;
-  --heading-color: #2D2926FF;
+  --heading-color: #2d2926ff;
   --text-color: #575555;
   --secondary-text-color: #fff;
   --button-bg-hover: #e4223c;
@@ -159,20 +159,18 @@ nav {
 .banner_content {
   margin: auto;
 }
-.img-slider{
+.img-slider {
   max-width: 500px;
 }
 .img-slide {
   border-radius: 10px;
   box-shadow: 5px 9px 20px -2px #c2c2c2bf;
   margin: 5px 20px;
-  height: 330px;
-  
+  height: 280px;
 }
-.slick-dots li{
+.slick-dots li {
   display: none;
 }
-
 
 /* ------------------------------- doner section style here  */
 
@@ -181,7 +179,7 @@ nav {
   margin: 0 20px;
 }
 .doners img {
-  width: 60%;
+  width: 70px;
   margin: auto;
   clip-path: circle(50% at 50% 50%);
 }
@@ -193,6 +191,32 @@ nav {
 .doners p {
   font-size: 15px;
   margin-bottom: 10px;
+}
+
+/* doner avilable section  */
+.grp_container {
+  gap: 30px;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+  padding: 30px 0px;
+  border-radius: 20px;
+  box-shadow: 3px 7px 15px -5px rgba(184, 182, 182, 0.67);
+  margin-bottom: 20px;
+}
+.bld_grp {
+
+  clip-path: circle(50% at 50% 50%);
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bld_grp h3 {
+  color: var(--secondary-text-color);
 }
 
 /*------------------------------- request form style here  */
@@ -215,11 +239,11 @@ textarea {
   background-color: var(--main-color);
   padding: 20px 50px;
   box-shadow: 0px 2px 15px 5px rgb(185, 185, 185);
-
 }
 
 .donate h2 {
   color: var(--secondary-text-color);
+  max-width: 475px;
 }
 .donate_btn {
   display: flex;
@@ -240,7 +264,7 @@ textarea {
   border-radius: 20px;
   max-width: 300px;
 }
-.article_slide h3{
+.article_slide h3 {
   color: var(--main-color);
   font-weight: 600;
 }
@@ -257,14 +281,12 @@ footer {
   height: 50px;
   margin-bottom: 10px;
   clip-path: circle(50% at 50% 50%);
-
 }
 
 .footer_1 ul li a,
 .footer_2 ul li a,
 .footer_3 ul li a,
-.footer_3 ul li 
-{
+.footer_3 ul li {
   color: var(--secondary-text-color);
 }
 .footer_1 ul li a:hover,
@@ -290,4 +312,15 @@ footer {
   font-size: 15px !important;
   padding-bottom: 20px;
   margin: 0;
+}
+
+/* media query start from here  */
+@media (max-width: 999px) {
+  input,
+  textarea {
+    width: 300px;
+  }
+  .img-slide {
+    width: 300px;
+  }
 }

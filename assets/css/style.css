@@ -205,9 +205,12 @@ nav {
   margin-bottom: 20px;
 }
 .bld_grp {
-
+  background-image: url(/assets/img/bld_grp_bg.jpg);
+  background-position: center;
+  background-size: 114%;
+  background-repeat: no-repeat;
   clip-path: circle(50% at 50% 50%);
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
   border: 2px solid var(--main-color);
   height: 100px;
   width: 100px;
@@ -235,8 +238,14 @@ textarea {
 }
 
 /*------------------------------- donate section start  */
+
 .donate {
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
+  background-image: url(/assets/img/blood_bg.jpg);
+  background-position: center;
+  /* background-size: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 20px 50px;
   box-shadow: 0px 2px 15px 5px rgb(185, 185, 185);
 }

@@ -165,15 +165,14 @@ nav {
 .img-slide {
   border-radius: 10px;
   box-shadow: 5px 9px 20px -2px #c2c2c2bf;
-  margin: 5px 20px;
+  margin: 20px 20px;
   height: 280px;
-}
-.slick-dots li {
-  display: none;
 }
 
 /* ------------------------------- doner section style here  */
-
+.doners_slider {
+  justify-content: center;
+}
 .doners {
   margin-top: 20px;
   margin: 0 20px;
@@ -261,15 +260,20 @@ textarea {
   min-width: 130px;
 }
 
-/* article slider style here  */
-.articles_slider {
-  gap: 15px;
-  justify-content: center;
-}
+/*------------------- article slider style here  */
+/* .articles_slider  button{
+ background-color: var(--main-color); 
+
+} */
 .article_slide {
   box-shadow: 3px 7px 15px -5px rgba(184, 182, 182, 0.67);
   border-radius: 20px;
-  max-width: 300px;
+  /* max-width: 300px; */
+  margin: 30px 10px;
+}
+
+.article_slide .slick-dots li {
+  display: block !important;
 }
 .article_slide h3 {
   color: var(--main-color);
@@ -282,7 +286,12 @@ textarea {
 /*-------------------------------- footeor style start form here  */
 footer {
   /* background-color: var(--main-color); */
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
 }
 .footer_1 img {
   width: 50px;

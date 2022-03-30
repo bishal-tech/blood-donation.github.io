@@ -120,7 +120,7 @@ nav {
   color: var(--text-color);
 }
 .nav-item a:hover {
-  color: var(--heading-color);
+  color: var(--main-color);
 }
 /* .nav-link::before {
   content: "";
@@ -205,7 +205,7 @@ nav {
   margin-bottom: 20px;
 }
 .bld_grp {
-  background-image: url(/assets/img/bld_grp_bg.jpg);
+  background-image: url(../img/bld_grp_bg.jpg);
   background-position: center;
   background-size: 114%;
   background-repeat: no-repeat;
@@ -240,10 +240,8 @@ textarea {
 /*------------------------------- donate section start  */
 
 .donate {
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/img/blood_bg.jpg);
+  background-image: url(../img/blood_bg.jpg);
   background-position: center;
-  /* background-size: 100%; */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px 50px;
@@ -283,7 +281,8 @@ textarea {
 }
 /*-------------------------------- footeor style start form here  */
 footer {
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 .footer_1 img {
   width: 50px;
